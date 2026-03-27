@@ -38,7 +38,7 @@ test('Login into browser',async ({page})=>  {
   console.log(await productlist.allTextContents());
   await productlist.first().click();
 
-  //added new comment
+  //added new comment new coment added
 
 });
 
