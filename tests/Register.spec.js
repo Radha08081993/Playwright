@@ -32,7 +32,7 @@ test('Login into browser',async ({page})=>  {
   await page.locator("#userEmail").type("radha.gade@gmail.com");
   await page.locator("#userPassword").fill("Shiv@1993");
   await page.locator("[type='submit']").click();
-  console.log(await page.title());
+  console.log(await page.title11()); //This is to print the title of the page after login
   //await page.waitForLoadState('networkidle');
   await page.locator(".card-body b").first().waitFor();
   console.log(await productlist.allTextContents());
